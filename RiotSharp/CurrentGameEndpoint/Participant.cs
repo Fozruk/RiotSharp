@@ -61,5 +61,8 @@ namespace RiotSharp.CurrentGameEndpoint
         /// </summary>
         [JsonProperty("teamId")]
         public long TeamId { get; set; }
+
+        [JsonProperty("summonerId")]
+        public long SummonerId { get; set; }
     }
 }

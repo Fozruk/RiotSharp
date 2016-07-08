@@ -78,5 +78,12 @@ namespace RiotSharp.CurrentGameEndpoint
         /// </summary>
         [JsonProperty("platformId")]
         public Platform Platform { get; set; }
+
+        [JsonProperty("teamInfoOne")]
+        public TeamInfo teamInfoOne { get; set; }
+
+        [JsonProperty("teamInfoTwo")]
+        public TeamInfo teamInfoTwo { get; set; }
+
     }
 }
