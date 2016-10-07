@@ -174,6 +174,9 @@ namespace RiotSharp.CurrentGameEndpoint.Enums
         /// </summary>
         Bilgewater5x5 = 313,
 
+
+        DefiDEFINITELY_NOT_DOMINION_5x5 = 317,
+
         /// <summary>
         /// Dynamic Queue Normal 5v5 Draft Pick games
         /// </summary>

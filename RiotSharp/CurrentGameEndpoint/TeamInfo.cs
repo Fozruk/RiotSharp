@@ -21,7 +21,7 @@ namespace RiotSharp.CurrentGameEndpoint
         public string memberStatus { get; set; }
 
         [JsonProperty("secondsUntilEligibleForDeletion")]
-        public long secondsUntilEligibleForDeletion { get; set; }
+        public double secondsUntilEligibleForDeletion { get; set; }
 
         [JsonProperty("teamId")]
         public Dictionary<String, String> teamId { get; set; }
