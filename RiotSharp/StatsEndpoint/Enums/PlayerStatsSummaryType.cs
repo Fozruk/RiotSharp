@@ -127,6 +127,21 @@ namespace RiotSharp.StatsEndpoint.Enums
         /// <summary>
         /// Black Market Brawlers games.
         /// </summary>
-        Bilgewater
+        Bilgewater,
+
+        /// <summary>
+        /// Siege games.
+        /// </summary>
+        Siege,
+
+        /// <summary>
+        /// New Summoner's Rift ranked games.
+        /// </summary>
+        RankedFlexSR,
+
+        /// <summary>
+        /// New Twisted Treeline ranked games.
+        /// </summary>
+        RankedFlexTT
     }
 }

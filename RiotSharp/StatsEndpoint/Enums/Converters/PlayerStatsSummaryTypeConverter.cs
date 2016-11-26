@@ -68,6 +68,12 @@ namespace RiotSharp.StatsEndpoint.Enums.Converters
                     return PlayerStatsSummaryType.CounterPick;
                 case "Bilgewater":
                     return PlayerStatsSummaryType.Bilgewater;
+                case "Siege":
+                    return PlayerStatsSummaryType.Siege;
+                case "RankedFlexSR":
+                    return PlayerStatsSummaryType.RankedFlexSR;
+                case "RankedFlexTT":
+                    return PlayerStatsSummaryType.RankedFlexTT;
                 default:
                     return null;
             }
